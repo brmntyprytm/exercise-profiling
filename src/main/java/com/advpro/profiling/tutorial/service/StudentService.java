@@ -11,6 +11,7 @@ import javax.persistence.PersistenceContext;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import javax.persistence.EntityManager;
 
 /**
  * @author muhammad.khadafi
@@ -23,6 +24,9 @@ public class StudentService {
 
     @Autowired
     private StudentCourseRepository studentCourseRepository;
+
+    @PersistenceContext
+    private EntityManager entityManager;
 
     public List<StudentCourse> getAllStudentsWithCourses() {
         List<StudentCourse> studentCourses = new ArrayList<>();
@@ -46,16 +50,7 @@ public class StudentService {
     }
 
     public Optional<Student> findStudentWithHighestGpa() {
-        List<Student> students = studentRepository.findAll();
-        Student highestGpaStudent = null;
-        double highestGpa = 0.0;
-        for (Student student : students) {
-            if (student.getGpa() > highestGpa) {
-                highestGpa = student.getGpa();
-                highestGpaStudent = student;
-            }
-        }
-        return Optional.ofNullable(highestGpaStudent);
+        return studentRepository.findTopByOrderByGpaDesc();
     }
 
     public String joinStudentNames() {
