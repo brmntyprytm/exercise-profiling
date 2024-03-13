@@ -1,12 +1,13 @@
 package com.advpro.profiling.tutorial.service;
 
+import com.advpro.profiling.tutorial.model.Course;
 import com.advpro.profiling.tutorial.model.Student;
 import com.advpro.profiling.tutorial.model.StudentCourse;
 import com.advpro.profiling.tutorial.repository.StudentCourseRepository;
 import com.advpro.profiling.tutorial.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
+import javax.persistence.PersistenceContext;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -24,17 +25,23 @@ public class StudentService {
     private StudentCourseRepository studentCourseRepository;
 
     public List<StudentCourse> getAllStudentsWithCourses() {
-        List<Student> students = studentRepository.findAll();
         List<StudentCourse> studentCourses = new ArrayList<>();
-        for (Student student : students) {
-            List<StudentCourse> studentCoursesByStudent = studentCourseRepository.findByStudentId(student.getId());
-            for (StudentCourse studentCourseByStudent : studentCoursesByStudent) {
-                StudentCourse studentCourse = new StudentCourse();
-                studentCourse.setStudent(student);
-                studentCourse.setCourse(studentCourseByStudent.getCourse());
-                studentCourses.add(studentCourse);
-            }
+
+        // Fetch students with their associated courses in a single query
+        List<Object[]> studentCourseData = studentCourseRepository.findAllStudentsWithCourses();
+
+        // Process the fetched data
+        for (Object[] data : studentCourseData) {
+            Student student = (Student) data[0];
+            Course course = (Course) data[1];
+
+            StudentCourse studentCourse = new StudentCourse();
+            studentCourse.setStudent(student);
+            studentCourse.setCourse(course);
+
+            studentCourses.add(studentCourse);
         }
+
         return studentCourses;
     }
 
