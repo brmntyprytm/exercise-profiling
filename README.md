@@ -6,58 +6,58 @@
 
 ### GUI Profiling test plan 1 for `/highest-gpa`
 
-![test plan 3 jomok summary](assets/"test plan 3 jomok summary.png")
-![test plan 3 jomok results tree](assets/"test plan 3 jomok results tree.png")
-![test plan 3 jomok results table](assets/"test plan 3 jomok results table.png")
-![test plan 3 jomok summary](assets/"test plan 3 jomok summary.png")
+![test%20plan%203%20jomok%20summary](assets/test%20plan%203%20jomok%20summary.png)
+![test%20plan%203%20jomok%20results%20tree](assets/test%20plan%203%20jomok%20results%20tree.png)
+![test%20plan%203%20jomok%20results%20table](assets/test%20plan%203%20jomok%20results%20table.png)
+![test%20plan%203%20jomok%20summary](assets/test%20plan%203%20jomok%20summary.png)
 
 ### GUI Profiling test plan 2 for `/all-student-names`
 
-![test plan 2 jomok summary](assets/"test plan 2 jomok summary.png")
-![test plan 2 jomok results tree](assets/"test plan 2 jomok results tree.png")
-![test plan 2 jomok results table](assets/"test plan 2 jomok results table.png")
-![test plan 2 jomok summary](assets/"test plan 2 jomok summary.png")
+![test%20plan%202%20jomok%20summary](assets/test%20plan%202%20jomok%20summary.png)
+![test%20plan%202%20jomok%20results%20tree](assets/test%20plan%202%20jomok%20results%20tree.png)
+![test%20plan%202%20jomok%20results%20table](assets/test%20plan%202%20jomok%20results%20table.png)
+![test%20plan%202%20jomok%20summary](assets/test%20plan%202%20jomok%20summary.png)
 
 ### CLI test plan 2 for `/all-student-names`
-![Screenshot 2024-03-13 at 20.36.34](assets/"Screenshot 2024-03-13 at 20.36.34.png")
-![testresults2 jtl](assets/"testresults2 jtl.png")
+![Screenshot%202024-03-13%20at%2020.36.34](assets/Screenshot%202024-03-13%20at%2020.36.34.png)
+![testresults2%20jtl](assets/testresults2%20jtl.png)
 
 ### CLI test plan 3 for `/highest-gpa`
-![Screenshot 2024-03-13 at 20.37.28](assets/"Screenshot 2024-03-13 at 20.37.28.png")
-![testresults3 jtl](assets/"testresults3 jtl.png")
+![Screenshot%202024-03-13%20at%2020.37.28](assets/Screenshot%202024-03-13%20at%2020.37.28.png)
+![testresults3%20jtl](assets/testresults3%20jtl.png)
 
 ### `getAllStudentWithCourses` method profiling
-![allstudentpostman](assets/"allstudentpostman.png")
+![allstudentpostman](assets/allstudentpostman.png)
 
 ### `findStudentWithHighestGPA` method profiling
-![highestgpa postman](assets/"highestgpa postman.png")
+![highestgpa%20postman](assets/highestgpa%20postman.png)
 
 ### `joinStudentNames` method profiling
-![allstudentname postman](assets/"allstudentname postman.png")
+![allstudentname%20postman](assets/allstudentname%20postman.png)
 
 ## After Optimization
 
 ### CLI test plan 2 for `/all-student-names`
 
-![testresultplan2 after](assets/"testresultplan2 after.png")
+![testresultplan2%20after](assets/testresultplan2%20after.png)
 
 ### CLI test plan 3 for `/highest-gpa`
 
-![testresultplan3 after](assets/"testresultplan3 after.png")
+![testresultplan3%20after](assets/testresultplan3%20after.png)
 
 ### `findStudentWithHighestGPA` method profiling
 
-![highestgpa postman](assets/"highestgpa postman.png")
-![findstudentwithhighestgpa flamegraph](assets/"findstudentwithhighestgpa flamegraph.png")
-![findstudentwithhighestgpa methodlist](assets/"findstudentwithhighestgpa methodlist.png")
-![findstudentwithhighestgpa timeline](assets/"findstudentwithhighestgpa timeline.png")
+![highestgpa%20postman](assets/highestgpa%20postman.png)
+![findstudentwithhighestgpa%20flamegraph](assets/findstudentwithhighestgpa%20flamegraph.png)
+![findstudentwithhighestgpa%20methodlist](assets/findstudentwithhighestgpa%20methodlist.png)
+![findstudentwithhighestgpa%20timeline](assets/findstudentwithhighestgpa%20timeline.png)
 
 ### `joinStudentNames` method profiling
 
-![allstudentname postman after](assets/"allstudentname postman after.png")
-![joinstudentname flamegraph after](assets/"joinstudentname flamegraph after.png")
-![joinstudentname methodlist after](assets/"joinstudentname methodlist after.png")
-![joinstudentname timeline after](assets/"joinstudentname timeline after.png")
+![allstudentname%20postman%20after](assets/allstudentname%20postman%20after.png)
+![joinstudentname%20flamegraph%20after](assets/joinstudentname%20flamegraph%20after.png)
+![joinstudentname%20methodlist%20after](assets/joinstudentname%20methodlist%20after.png)
+![joinstudentname%20timeline%20after](assets/joinstudentname%20timeline%20after.png)
 
 ## REFLECTION
 
