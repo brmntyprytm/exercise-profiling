@@ -4,60 +4,60 @@
 
 ## Before Optimization
 
-### GUI Profiling test plan 1 for `/highest-gpa` 
+### GUI Profiling test plan 1 for `/highest-gpa`
 
-![testplan3summary](assets/test plan 3 jomok summary.png)
-![testplan3resultstree](assets/test plan 3 jomok results tree.png)
-![testplan3resultstable](assets/test plan 3 jomok results table.png)
-![testplan3resultssummary](assets/test plan 3 jomok summary.png)
+![test plan 3 jomok summary](assets/test plan 3 jomok summary.png)
+![test plan 3 jomok results tree](assets/test plan 3 jomok results tree.png)
+![test plan 3 jomok results table](assets/test plan 3 jomok results table.png)
+![test plan 3 jomok summary](assets/test plan 3 jomok summary.png)
 
 ### GUI Profiling test plan 2 for `/all-student-names`
 
-![testplan2summary](assets/test plan 2 jomok summary.png)
-![testplan2resultstree](assets/test plan 2 jomok results tree.png)
-![testplan2resultstable](assets/test plan 2 jomok results table.png)
-![testplan2resultssummary](assets/test plan 2 jomok summary.png)
+![test plan 2 jomok summary](assets/test plan 2 jomok summary.png)
+![test plan 2 jomok results tree](assets/test plan 2 jomok results tree.png)
+![test plan 2 jomok results table](assets/test plan 2 jomok results table.png)
+![test plan 2 jomok summary](assets/test plan 2 jomok summary.png)
 
 ### CLI test plan 2 for `/all-student-names`
-![testplancli](assets/Screenshot 2024-03-13 at 20.36.34.png)
-![testplancli](assets/testresults2 jtl.png)
+![Screenshot 2024-03-13 at 20.36.34](assets/Screenshot 2024-03-13 at 20.36.34.png)
+![testresults2 jtl](assets/testresults2 jtl.png)
 
 ### CLI test plan 3 for `/highest-gpa`
-![testplan3cli](assets/Screenshot 2024-03-13 at 20.37.28.png)
-![testplan3cli](assets/testresults3 jtl.png)
+![Screenshot 2024-03-13 at 20.37.28](assets/Screenshot 2024-03-13 at 20.37.28.png)
+![testresults3 jtl](assets/testresults3 jtl.png)
 
 ### `getAllStudentWithCourses` method profiling
-![getallstudentnames](assets/allstudentpostman.png)
+![allstudentpostman](assets/allstudentpostman.png)
 
 ### `findStudentWithHighestGPA` method profiling
-![findstudentwithhighestgpa](assets/highestgpa postman.png)
+![highestgpa postman](assets/highestgpa postman.png)
 
 ### `joinStudentNames` method profiling
-![joinstudentnames](assets/allstudentname postman.png)
+![allstudentname postman](assets/allstudentname postman.png)
 
 ## After Optimization
 
 ### CLI test plan 2 for `/all-student-names`
 
-![testplancli](assets/testresultplan2 after.png)
+![testresultplan2 after](assets/testresultplan2 after.png)
 
 ### CLI test plan 3 for `/highest-gpa`
 
-![testplan3cli](assets/testresultplan3 after.png)
+![testresultplan3 after](assets/testresultplan3 after.png)
 
 ### `findStudentWithHighestGPA` method profiling
 
-![getallstudentnames](assets/highestgpa postman.png)
-![getallstudentnames](assets/findstudentwithhighestgpa flamegraph.png)
-![getallstudentnames](assets/findstudentwithhighestgpa methodlist.png)
-![getallstudentnames](assets/findstudentwithhighestgpa timeline.png)
+![highestgpa postman](assets/highestgpa postman.png)
+![findstudentwithhighestgpa flamegraph](assets/findstudentwithhighestgpa flamegraph.png)
+![findstudentwithhighestgpa methodlist](assets/findstudentwithhighestgpa methodlist.png)
+![findstudentwithhighestgpa timeline](assets/findstudentwithhighestgpa timeline.png)
 
 ### `joinStudentNames` method profiling
 
-![joinstudentnames](assets/allstudentname postman after.png)
-![joinstudentnames](assets/joinstudentname flamegraph after.png)
-![joinstudentnames](assets/joinstudentname methodlist after.png)
-![joinstudentnames](assets/joinstudentname timeline after.png)
+![allstudentname postman after](assets/allstudentname postman after.png)
+![joinstudentname flamegraph after](assets/joinstudentname flamegraph after.png)
+![joinstudentname methodlist after](assets/joinstudentname methodlist after.png)
+![joinstudentname timeline after](assets/joinstudentname timeline after.png)
 
 ## REFLECTION
 
