@@ -6,58 +6,58 @@
 
 ### GUI Profiling test plan 1 for `/highest-gpa`
 
-![test plan 3 jomok summary](assets/test plan 3 jomok summary.png)
-![test plan 3 jomok results tree](assets/test plan 3 jomok results tree.png)
-![test plan 3 jomok results table](assets/test plan 3 jomok results table.png)
-![test plan 3 jomok summary](assets/test plan 3 jomok summary.png)
+![test plan 3 jomok summary](assets/"test plan 3 jomok summary.png")
+![test plan 3 jomok results tree](assets/"test plan 3 jomok results tree.png")
+![test plan 3 jomok results table](assets/"test plan 3 jomok results table.png")
+![test plan 3 jomok summary](assets/"test plan 3 jomok summary.png")
 
 ### GUI Profiling test plan 2 for `/all-student-names`
 
-![test plan 2 jomok summary](assets/test plan 2 jomok summary.png)
-![test plan 2 jomok results tree](assets/test plan 2 jomok results tree.png)
-![test plan 2 jomok results table](assets/test plan 2 jomok results table.png)
-![test plan 2 jomok summary](assets/test plan 2 jomok summary.png)
+![test plan 2 jomok summary](assets/"test plan 2 jomok summary.png")
+![test plan 2 jomok results tree](assets/"test plan 2 jomok results tree.png")
+![test plan 2 jomok results table](assets/"test plan 2 jomok results table.png")
+![test plan 2 jomok summary](assets/"test plan 2 jomok summary.png")
 
 ### CLI test plan 2 for `/all-student-names`
-![Screenshot 2024-03-13 at 20.36.34](assets/Screenshot 2024-03-13 at 20.36.34.png)
-![testresults2 jtl](assets/testresults2 jtl.png)
+![Screenshot 2024-03-13 at 20.36.34](assets/"Screenshot 2024-03-13 at 20.36.34.png")
+![testresults2 jtl](assets/"testresults2 jtl.png")
 
 ### CLI test plan 3 for `/highest-gpa`
-![Screenshot 2024-03-13 at 20.37.28](assets/Screenshot 2024-03-13 at 20.37.28.png)
-![testresults3 jtl](assets/testresults3 jtl.png)
+![Screenshot 2024-03-13 at 20.37.28](assets/"Screenshot 2024-03-13 at 20.37.28.png")
+![testresults3 jtl](assets/"testresults3 jtl.png")
 
 ### `getAllStudentWithCourses` method profiling
-![allstudentpostman](assets/allstudentpostman.png)
+![allstudentpostman](assets/"allstudentpostman.png")
 
 ### `findStudentWithHighestGPA` method profiling
-![highestgpa postman](assets/highestgpa postman.png)
+![highestgpa postman](assets/"highestgpa postman.png")
 
 ### `joinStudentNames` method profiling
-![allstudentname postman](assets/allstudentname postman.png)
+![allstudentname postman](assets/"allstudentname postman.png")
 
 ## After Optimization
 
 ### CLI test plan 2 for `/all-student-names`
 
-![testresultplan2 after](assets/testresultplan2 after.png)
+![testresultplan2 after](assets/"testresultplan2 after.png")
 
 ### CLI test plan 3 for `/highest-gpa`
 
-![testresultplan3 after](assets/testresultplan3 after.png)
+![testresultplan3 after](assets/"testresultplan3 after.png")
 
 ### `findStudentWithHighestGPA` method profiling
 
-![highestgpa postman](assets/highestgpa postman.png)
-![findstudentwithhighestgpa flamegraph](assets/findstudentwithhighestgpa flamegraph.png)
-![findstudentwithhighestgpa methodlist](assets/findstudentwithhighestgpa methodlist.png)
-![findstudentwithhighestgpa timeline](assets/findstudentwithhighestgpa timeline.png)
+![highestgpa postman](assets/"highestgpa postman.png")
+![findstudentwithhighestgpa flamegraph](assets/"findstudentwithhighestgpa flamegraph.png")
+![findstudentwithhighestgpa methodlist](assets/"findstudentwithhighestgpa methodlist.png")
+![findstudentwithhighestgpa timeline](assets/"findstudentwithhighestgpa timeline.png")
 
 ### `joinStudentNames` method profiling
 
-![allstudentname postman after](assets/allstudentname postman after.png)
-![joinstudentname flamegraph after](assets/joinstudentname flamegraph after.png)
-![joinstudentname methodlist after](assets/joinstudentname methodlist after.png)
-![joinstudentname timeline after](assets/joinstudentname timeline after.png)
+![allstudentname postman after](assets/"allstudentname postman after.png")
+![joinstudentname flamegraph after](assets/"joinstudentname flamegraph after.png")
+![joinstudentname methodlist after](assets/"joinstudentname methodlist after.png")
+![joinstudentname timeline after](assets/"joinstudentname timeline after.png")
 
 ## REFLECTION
 
